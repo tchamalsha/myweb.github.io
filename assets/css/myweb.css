@@ -51,36 +51,82 @@ p{
 .wrap3{
   align-items: center;
   padding-top: 3%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.card{
+  width: 30rem;
+  height: 17rem;
+  background-color: darkgrey;
+}
+.row{
+  padding-top: 5%;
 }
 .wrap3 h3{
   margin-left: 1.5rem;
 }
-.blogs{
-  display: inline-block;
+.wrap3 h1{
+  font-size: 1.6rem;
+ 
 }
-.box{
-  cursor: pointer;
+.media{
+  padding-right: 10%;
 }
-.blogs .box {
-  position: relative;
-  width: 30%;
+.media h3{
+  text-align: left;
+}
+.projects h1{
+  font-size: 1.6rem;
+  padding-left: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.row .card p{
+  color: rgb(24, 22, 22);
+  font-size: 1.3rem;
+}
+.card-body a .fa{
+  font-size: 2rem;
+  padding-left: 50%;
+  padding-bottom: 2%;
+ color: black;
+}
+.col-sm-2 a .fa{
+  font-size: 2rem;
+  padding-left: 70%;
+  padding-bottom: 2%;
+ color: black;
+}
+.col-sm-2{
+  padding-left: 43%;
+}
+.wrap3 .card .card-body .button-row button{
+  height: 15%;
+ 
+}
+.wrap3 .card{
+  height: 100%;
+}
+.list-unstyled h1{
+  font-size: 1.6rem;
+  padding-left: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.media img{
+  width: 40%;
   height: 40%;
-  background: black;
-  margin: 10PX;
-  display: inline-block;
-}
-.box .blog1{
-  position: relative;
-  overflow: hidden;
-}
-.box .blog1 img{
-  width: 100%;
-  height: 70%;
   filter: brightness(100%);
+  padding-left: 10%;
   opacity: 1;
   transition: 0.15s;
 }
-.box:hover img{
+.media p{
+  font-family: 'Karla', sans-serif;
+  font-size: 1.3rem;
+  color: darkgrey;
+}
+.media:hover img{
   transform: scale(1.03);
   filter: brightness(30%);
 }
