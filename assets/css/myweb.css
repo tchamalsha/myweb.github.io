@@ -8,7 +8,7 @@ body{
 h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-transform: uppercase;
-    font-family: 'Grandstander', cursive;
+    font-family: 'Itim', cursive;
     color: darkgrey;
     
 }
@@ -21,12 +21,15 @@ h2{
 h3{
   color: bisque;
   font-size: 29px;
-  font-family: 'Grandstander', cursive;
+  font-family: 'Itim', cursive;
 }
 p{
-  font-family: 'Karla', sans-serif;
+  font-family: 'Balsamiq Sans', cursive;
   font-size: 29px;
   color: darkgrey;
+}
+.wrap2 p{
+  font-family: 'Dancing Script', cursive;
 }
 .cover{
   width: 100%;
@@ -53,6 +56,7 @@ p{
   padding-top: 3%;
   padding-left: 10%;
   padding-right: 10%;
+  
 }
 .card{
   width: 30rem;
@@ -60,7 +64,7 @@ p{
   background-color: darkgrey;
 }
 .row{
-  padding-top: 5%;
+  padding-top: 0%;
 }
 .info-menu p{
   font-size: 1.5rem;
@@ -71,8 +75,10 @@ p{
 .info-menu .fa fa-graduation-cap{
   background-color: blueviolet;
 }
-.wrap3 h3{
-  margin-left: 1.5rem;
+.wrap3 h5{
+  color: rgb(114, 65, 5);
+  font-size: 1.6rem;
+  font-family: 'Itim', cursive;
 }
 .wrap3 h1{
   font-size: 1.6rem;
@@ -148,6 +154,12 @@ p{
   transform: scale(1.03);
   filter: brightness(30%);
 }
+.wrap4 h1{
+  font-size: 1.6rem;
+color: darkgray;
+padding-left: 10%;
+padding-top: 3%;
+}
 .social-menu ul{
   position: absolute;
   left: 25%;
@@ -204,8 +216,8 @@ p{
   .wrap2 p{
     font-size: 1.6rem;
   }
-  .wrap3
-}
+ 
+
 @media only screen and (max-width:768px){
   .cover{
     height: 15rem;
@@ -322,4 +334,3 @@ p{
     height: 15%;
    
   }
-}
