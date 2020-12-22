@@ -100,31 +100,32 @@ p{
 }
 .card-body a .fa{
   font-size: 2rem;
+  margin-block-end: auto;
   margin-left: 90%;
-  padding: 0 !important;
+  color: black;
 }
 /* .card-body .git-icon{
   background:red;
 } */
 .col-sm-6 a .fa{
-  font-size: 2rem;
-  padding-left: 70%;
-  padding-bottom: 2%;
- color: black;
+  font-size: 1rem;
+  
 }
 .col-sm-6{
   padding-top: 5%;
 }
 .wrap3 .card .card-body .button-row button{
   height: 15%;
+  text-align: center;
  
 }
 .wrap3 .card .card-body .button-row {
-  padding-bottom: 2%;
+  padding-bottom: 0%;
  
 }
 .wrap3 .card{
   height: 100%;
+  width: 100%;
  
 }
 .list-unstyled h1{

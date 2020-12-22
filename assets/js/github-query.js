@@ -28,12 +28,21 @@ function pushRepositories(repoName,repoURL,repoDescription,repoLanguage,repoStar
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">${repoName}</h5>
-                        <p class="card-text">${repoDescription}
+                        <p class="card-text">${repoDescription} Click on Github icon to see the repo.
                         </p>
-                        <div class="git-icon">
-                            <a href="${repoURL}">
-                                <i class="fa fa-github"></i>
-                            </a>
+                        <div class="button-row">
+                            <button type="button" class="btn btn-success">${repoLanguage}</button> 
+                        </div><br>
+                        <div class="button-row">
+                            <p><i class="fa fa-star-o" aria-hidden="true"></i>  Stars: ${repoStars}</p>
+                        </div>
+                        <div class="button-row">
+                            <p><i class="fa fa-code-fork" aria-hidden="true"></i> Forks: ${repoForks}</p>
+                            <div class="git-icon">
+                                <a href="${repoURL}">
+                                    <i class="fa fa-github"> <p>URL</P> </i>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
