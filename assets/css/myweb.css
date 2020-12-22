@@ -58,10 +58,11 @@ p{
 .card{
   width: 30rem;
   height: 17rem;
+  margin-left: 10%;
   background-color: darkgrey;
 }
 .row{
-  padding-top: 0%;
+  padding-top: 2%;
 }
 .info-menu p{
   font-size: 1.5rem;
