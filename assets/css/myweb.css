@@ -25,7 +25,7 @@ h3{
 }
 p{
   font-family: 'Balsamiq Sans', cursive;
-  font-size: 29px;
+  font-size: 25px;
   color: darkgrey;
 }
 .wrap2 p{
@@ -65,7 +65,7 @@ p{
   padding-top: 2%;
 }
 .info-menu p{
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .info-menu{
   padding-left: 15%;
@@ -85,6 +85,9 @@ p{
 .wrap3 ul{
   font-size: 1.3rem;
   color: bisque;
+}
+.card-body p{
+  font-size: 0.2rem;
 }
 .media{
   margin-bottom: 1rem;
