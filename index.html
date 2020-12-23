@@ -8,6 +8,7 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 		<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&family=Dancing+Script:wght@500&family=Itim&display=swap" rel="stylesheet">
 		<link href="assets/css/myweb.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/animate.css">
 		
 		<!--<link rel="stylesheet" href="assets/css/all.min.css">-->
 		
@@ -40,6 +41,7 @@
 	<!-- info -->
 	
 	<div class="info-menu">
+		<div class="wow backInUp">
 		<h3>Who Am I?</h3><br>
 			<ul>
 				
@@ -49,6 +51,7 @@
 				<li><p><i class="fa fa-envelope" aria-hidden="true"></i>  Please email via <a>tchamalsha@icloud.com</a> to reach me.</p></li>
 				<li><p><i class="fa fa-beer" aria-hidden="true"></i>  I'm a <del>coca-cola</del> coffee lover.</p></li>
 			</ul>
+		</div>
 	</div>
 	<!-- Projects -->
 	
@@ -60,7 +63,7 @@
 	</div>
 	<!-- Blogs -->
 	<div class="container mt-5">
-		<h1>Some of my blog articles...</h1>
+		<h1 class="blog">Some of my blog articles...</h1>
 		<div class="row blog mt-3">
 			<div class="col-md-5">
 			  <a href="https://medium.com/analytics-vidhya/accessing-mysql-database-from-a-python-program-a948823d08a8">
@@ -114,6 +117,35 @@
 			</div>
 		</div>
 	</div>
+	<div class="container mt-5">
+		<h1 class="blog">My progress</h1>
+		<div class="wrap3">
+			<ul>
+				<li>Java</li>
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
+				</div><br>
+				<li>C language</li>
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" style="width: 55%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">55%</div>
+				</div><br>
+				<li>HTML</li>
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+				</div><br>
+				<li>Python</li>
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
+				</div><br>
+				<li>Javascript</li>
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" style="width: 45%;" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">45%</div>
+				</div><br>
+			</ul>
+			
+		</div>
+	</div>
+	
 	<!-- Social media links -->
 	<div class="wrap4">
 		<h1>You can follow me on...</h1>
@@ -132,12 +164,17 @@
 	<!-- Footer -->
 	<div class="footer">
 			<hr color="grey">
+			<p>"Searching for my own way to make it all success"</p>
 			<p>Designed and developed by Chamalsha Ubayarathna</p>
 			<br>
 	</div> 
 	<!--custom js-->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
 	<script src="/assets/js/github-query.js" type="text/javascript"></script>
+	<script src="js/wow.min.js"></script>
+	<script>
+	new WOW().init();
+	</script>
 		
 </body>
 </html>
