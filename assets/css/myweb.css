@@ -51,7 +51,7 @@ p{
 .wrap3{
   align-items: center;
   padding-top: 3%;
-  padding-left: 10%;
+  padding-left: 5%;
   padding-right: 10%;
   
 }
@@ -297,7 +297,7 @@ padding-top: 3%;
     font-size: 25px;
   }
 }
-@media only screen and (max-width:500px){
+@media only screen and (max-width:450px){
   .footer p{
     font-size: 1.2rem;
   }
@@ -315,14 +315,12 @@ padding-top: 3%;
   }
   .info-menu{
     padding-left: 3%;
-    
   }
   .wrap3 h3{
     margin-left: 1.5rem;
   }
   .wrap3 h1{
     font-size: 1.6rem;
-   
   }
   .media h3{
     text-align: left;
@@ -339,9 +337,8 @@ padding-top: 3%;
   }
   .card-body a .fa{
     font-size: 2rem;
-    padding-left: 50%;
     padding-bottom: 2%;
-   color: black;
+    color: black;
   }
   .col-sm-2 a .fa{
     font-size: 2rem;
