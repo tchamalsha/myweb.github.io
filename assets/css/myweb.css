@@ -169,6 +169,64 @@ color: darkgray;
 padding-left: 10%;
 padding-top: 3%;
 }
+.comment-box{
+  width: 60%;
+  color: rgb(207, 216, 207);
+  background: rgba(61, 58, 58, 0.8);
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 30px;
+  margin: auto;
+}
+.textbox{
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  margin: 0px 0;
+  padding: 8px 0;
+}
+.comment-box input[id="name"]{
+  margin-top: 10px;
+  border: none;
+  background: transparent;
+  width: 100%;
+  border-bottom: 2px solid #e0dbdb;
+  padding-bottom: 5px;
+  font-size: 15px;
+  color: white;
+  transition: 0.2s;
+}
+.comment-box input[id="comment"]{
+  margin-top: 10px;
+  border: none;
+  background: transparent;
+  width: 100%;
+  border-bottom: 2px solid #e0dbdb;
+  padding-bottom: 5px;
+  font-size: 15px;
+  color: white;
+  transition: 0.2s;
+}
+.avatar{
+  width:100px;
+  height: 100px;
+  border-radius: 50%;
+  position: relative;
+  top: -30px;
+  left: calc(50% -50px);
+}
+.comment-box input[type="button"]{
+  align-self: center;
+  height: 40px;
+  border: solid 2px #0e0f0e;
+  background: #0a0a0a;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 90px;
+  font-size: 15px;
+  color: white;
+  margin-top: 40px;
+}
 .social-menu{
   width: 100%;
   justify-content: center;

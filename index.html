@@ -55,8 +55,8 @@
 	</div>
 	<!-- Projects -->
 	
-	<div class="wrap3">
-		<h1>Some of my projects...</h1>
+	<div class="container mt-5">
+		<h1 class="blog">Some of my projects...</h1>
 		<div class="row wrap" id="my-github-projects">
 			<!--Repositories are pushed here-->
 		</div>
@@ -145,7 +145,22 @@
 			
 		</div>
 	</div>
-	
+	<div class="container">
+		<div class="comment-box">
+			<form id="comment-form" action="">
+				<div class="wrap1" id="login-div">
+				<div class="avatar"><img src="assets/img/icons8-user-100.png"></div>
+				<h1 class="blog">What do you think about the site?</h1>
+				<div class="textbox">
+					<input type="text"  placeholder="Your name" name="value" id="name" >
+				</div><br>
+				<div class="textbox">
+					<input type="Text" placeholder="Your Comment" name="Your comment" id="comment" >
+				</div><br>
+				<input type="submit" id="btn1" value="Submit" onclick="comments()">
+			</form>
+		</div>
+	</div>
 	<!-- Social media links -->
 	<div class="wrap4">
 		<h1>You can follow me on...</h1>
