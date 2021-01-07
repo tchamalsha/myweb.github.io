@@ -52,4 +52,12 @@ function pushRepositories(repoName,repoURL,repoDescription,repoLanguage,repoStar
     repos.innerHTML += repoTemplate
     
 }
+let form=document.getElementById("comment-form")
+form.addEventListener('submit',(e)=>{
+    e.preventDefault()
+    let name =form.name.value
+    let massage=form.comment.value
+    window.location='mailto:tharu.chamalsha@gmail.com?subject='+name+"&body"+massage
+    form.reset()
+})
  
