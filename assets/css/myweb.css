@@ -354,13 +354,16 @@ padding-top: 3%;
   .text p{
     font-size: 25px;
   }
+  .comment-box{
+    width: auto;
+  }
 }
 @media only screen and (max-width:450px){
   .footer p{
     font-size: 1.2rem;
   }
   .card{
-    width: 20rem;
+    width: 22rem;
     height: fit-content;
     background-color: darkgrey;
     font-size: 1rem;
@@ -392,6 +395,7 @@ padding-top: 3%;
   .row .card p{
     color: rgb(24, 22, 22);
     font-size: 1rem;
+ 
   }
   .card-body a .fa{
     font-size: 2rem;
