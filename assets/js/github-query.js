@@ -70,6 +70,7 @@ function pushRepositories(repoName,repoURL,repoDescription,repoLanguage,repoStar
 
 let msgRef=firebase.database().ref('User');
 let form=document.getElementById("comment-form");
+let modal=document.getElementById("modal");
 form.addEventListener('submit',(e)=>{
     e.preventDefault()
     let name =form.name.value
@@ -80,6 +81,7 @@ form.addEventListener('submit',(e)=>{
     if(name&&massage)
     {
         saveData(name,massage,date);
+        modal.click();
     }
     form.reset()
 })
