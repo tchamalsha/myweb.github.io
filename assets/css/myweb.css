@@ -40,7 +40,7 @@ p{
   left: 8%;
   top: 18rem;
   position: absolute;
-  height: 20rem;
+  height: 25rem;
   clip-path: circle();
    
 }
@@ -306,7 +306,7 @@ padding-top: 3%;
     height: 20rem;
   }
   .dp{
-    height: 15rem;
+    height: 20rem;
     top: 12rem;
   }
   .wrap2 h1{
