@@ -52,48 +52,4 @@ function pushRepositories(repoName,repoURL,repoDescription,repoLanguage,repoStar
     repos.innerHTML += repoTemplate
     
 }
-// Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-  var firebaseConfig = {
-    apiKey: "AIzaSyA36ijB-TruXN0ZzTjcZUMk3LKMNk7jVI8",
-    authDomain: "myportfolio-97a3e.firebaseapp.com",
-    databaseURL: "https://myportfolio-97a3e.firebaseio.com",
-    projectId: "myportfolio-97a3e",
-    storageBucket: "myportfolio-97a3e.appspot.com",
-    messagingSenderId: "933318935496",
-    appId: "1:933318935496:web:be3706e4d8fed87c1b76fd",
-    measurementId: "G-91TH23F748"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  
-
-let msgRef=firebase.database().ref('User');
-let form=document.getElementById("comment-form");
-let modal=document.getElementById("modal");
-form.addEventListener('submit',(e)=>{
-    e.preventDefault()
-    let name =form.name.value
-    let massage=form.comment.value
-    let today = new Date();
-    console.log(name);
-	let date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
-    if(name&&massage)
-    {
-        saveData(name,massage,date);
-        modal.click();
-    }
-    form.reset()
-})
-
-//save user data to firebase
-function saveData(name,massage,date){
-	var newMsgRef= msgRef.push();
-	newMsgRef.set({
-    
-	Name:name,
-    Massage:massage,
-    Date:date
-
-	});
-}
+ 

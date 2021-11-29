@@ -40,7 +40,7 @@ p{
   left: 8%;
   top: 18rem;
   position: absolute;
-  height: 25rem;
+  height: 20rem;
   clip-path: circle();
    
 }
@@ -169,64 +169,6 @@ color: darkgray;
 padding-left: 10%;
 padding-top: 3%;
 }
-.comment-box{
-  width: 60%;
-  color: rgb(207, 216, 207);
-  background: rgba(61, 58, 58, 0.8);
-  border-radius: 20px;
-  box-sizing: border-box;
-  padding: 30px;
-  margin: auto;
-}
-.textbox{
-  width: 100%;
-  overflow: hidden;
-  font-size: 20px;
-  margin: 0px 0;
-  padding: 8px 0;
-}
-.comment-box input[id="name"]{
-  margin-top: 10px;
-  border: none;
-  background: transparent;
-  width: 100%;
-  border-bottom: 2px solid #e0dbdb;
-  padding-bottom: 5px;
-  font-size: 15px;
-  color: white;
-  transition: 0.2s;
-}
-.comment-box input[id="comment"]{
-  margin-top: 10px;
-  border: none;
-  background: transparent;
-  width: 100%;
-  border-bottom: 2px solid #e0dbdb;
-  padding-bottom: 5px;
-  font-size: 15px;
-  color: white;
-  transition: 0.2s;
-}
-.avatar{
-  width:100px;
-  height: 100px;
-  border-radius: 50%;
-  position: relative;
-  top: -30px;
-  left: calc(50% -50px);
-}
-.comment-box input[type="submit"]{
-  align-self: center;
-  height: 40px;
-  border: solid 2px #0e0f0e;
-  background: #f0ecec;
-  cursor: pointer;
-  border-radius: 5px;
-  width: 90px;
-  font-size: 15px;
-  color: rgb(0, 0, 0);
-  margin-top: 40px;
-}
 .social-menu{
   width: 100%;
   justify-content: center;
@@ -306,7 +248,7 @@ padding-top: 3%;
     height: 20rem;
   }
   .dp{
-    height: 20rem;
+    height: 15rem;
     top: 12rem;
   }
   .wrap2 h1{
@@ -354,16 +296,13 @@ padding-top: 3%;
   .text p{
     font-size: 25px;
   }
-  .comment-box{
-    width: auto;
-  }
 }
 @media only screen and (max-width:450px){
   .footer p{
     font-size: 1.2rem;
   }
   .card{
-    width: 22rem;
+    width: 20rem;
     height: fit-content;
     background-color: darkgrey;
     font-size: 1rem;
@@ -394,8 +333,8 @@ padding-top: 3%;
   }
   .row .card p{
     color: rgb(24, 22, 22);
+    font-family: 'Dancing Script', cursive;
     font-size: 1rem;
- 
   }
   .card-body a .fa{
     font-size: 2rem;
@@ -404,7 +343,6 @@ padding-top: 3%;
   .col-sm-2 a .fa{
     font-size: 2rem;
     padding-left: 70%;
-    padding-bottom: 2%;
    color: black;
   }
   .col-sm-6{
