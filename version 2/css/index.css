@@ -26,6 +26,12 @@ h2{
 .aboutme ul p{
     text-align: left;
 }
+.projects .doc{
+    width: 350px;
+}
+.projects .art{
+
+}
 .articles{
     margin-top: 25%;
 }
