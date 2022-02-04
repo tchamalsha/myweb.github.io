@@ -11,7 +11,7 @@
     font-size: 1.5vw;
     color: gray;
 }
-.aboutme h1{
+h2{
     text-align: center;
     color: black;
 }
@@ -19,6 +19,39 @@
     text-align: center;
     font-size: 1.5vw;
     color: rgb(52, 52, 53);
+}
+.aboutme ul {
+    list-style-type: none;
+}
+.aboutme ul p{
+    text-align: left;
+}
+.articles{
+    margin-top: 25%;
+}
+.doc{
+    background-color: gray;
+    border-radius: 1.5rem;
+    display: inline-block;
+    width: 350px;
+}
+.doc img{
+    border-radius: 1.5rem;
+}
+.doc p{
+    background-color: gray;
+    text-align: justify;
+    color: whitesmoke;
+    white-space: normal;
+}
+.doc .btn{
+    background-color: rgb(236, 229, 219);
+}
+.art{
+    height: 700px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
 }
 /* responsive */
 @media only screen and (max-width:1200px){
