@@ -17,9 +17,9 @@
 </head>
 <body>
     <div class="container-fluid">
-      <div class="container">
+      <div class="container ">
         <div class="row">
-          <nav class="navbar navbar-expand-lg navbar-light ">
+          <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top">
             <div class="container-fluid">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -27,16 +27,19 @@
               <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#main">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">About me</a>
+                    <a class="nav-link" aria-current="page" href="#aboutme">About me</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">My Projects</a>
+                    <a class="nav-link" href="#projects">My Projects</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">My articles</a>
+                    <a class="nav-link" href="#services">My services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#articles">My articles</a>
                   </li>
                 </ul>
               </div>
@@ -45,7 +48,7 @@
         </div>
       </div>
 
-      <div class="container main">
+      <div class="container main m-4" id="main">
         <div class="row justify-content-md-center mt-5">
           <div class="col-md-auto">
             <h1>Hello!! I'm Tharushi Chamalsha.</h1>
@@ -58,10 +61,18 @@
                 University of Kalaniya. </p>
           </div>
         </div>
+        <div class="row justify-content-center">
+          <div class="col-sm-3 ">
+            <img src="assets/debkg5a-2702b63b-2abd-41c0-87a4-8e297e5ef33c.png" alt="">
+          </div>
+        </div>
       </div>
 
+
+
+      <!--ABout me-->
       
-      <div class="container-fluid aboutme">
+      <div class="container-fluid aboutme m-4" id="aboutme">
         <h2>About Me</h2>
         <div class="row justify-content-center mt-3">
           <div class="col-8">
@@ -88,8 +99,9 @@
         </div>
       </div>
 
-      <div class="conatiner projects ">
-        <h2>Projects</h2>
+      <!--projects-->
+      <div class="conatiner-fluid projects " id="projects">
+        <h2>My featured Projects</h2>
         <div class="justify-content-center art p-3">
           <div class=" doc p-4 m-4 text-center">
             <img src="assets/bank-customer-getting-loan-man-wheeling-cart-with-cash-flat-vector-illustration-finance-money-banking-service_74855-8233.webp" class="card-img-top" alt="...">
@@ -136,11 +148,52 @@
               electronic typesetting, remaining essentially unchanged..</p>
               <a href="#" class="btn ">Go somewhere</a>
           </div>
-          
         </div>
       </div>
 
-      <div class="container articles mt-5">
+      <!--services-->
+      <div class="container m-4" id="services">
+        <h2>My services</h2>
+        <div class="services row">
+          <div class="col-sm-3 box web text-center p-3">
+
+            <span class="text mt-3"> 
+              <h3>Web Development</h3>
+              Ipsum is simply dummy text of the printing and typesetting industry. 
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+              when an unknown printer took a galley of type and scrambled it to make a type 
+              specimen book. It has survived not only five centuries, but also the leap into 
+              electronic typesetting, remaining essentially unchanged..
+            </span>
+          </div>
+          <div class="col-sm-3 box graphic text-center p-3">
+
+            <span class="text mt-3"> 
+              <h3>Applications</h3>
+              Ipsum is simply dummy text of the printing and typesetting industry. 
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+              when an unknown printer took a galley of type and scrambled it to make a type 
+              specimen book. It has survived not only five centuries, but also the leap into 
+              electronic typesetting, remaining essentially unchanged..
+            </span>
+          </div>
+          <div class="col-sm-3 box app text-center p-3">
+
+            <span class="text mt-3"> 
+              <h3>Graphic Designing</h3>
+              Ipsum is simply dummy text of the printing and typesetting industry. 
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+              when an unknown printer took a galley of type and scrambled it to make a type 
+              specimen book. It has survived not only five centuries, but also the leap into 
+              electronic typesetting, remaining essentially unchanged..
+            </span>
+          </div>
+            
+        </div>
+      </div>
+
+      <!--articles-->
+      <div class="container-fluid articles m-4" id="articles">
         <h2>My Articles</h2>
         <div class="justify-content-center p-3 art">
           <div class=" doc p-4 m-4 text-center ">
