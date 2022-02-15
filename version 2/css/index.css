@@ -1,5 +1,6 @@
 *{
     background-color: rgb(236, 229, 219);
+    overflow-x: hidden;
 }
 
 .main h1{
@@ -12,7 +13,7 @@
     color: gray;
 }
 .main img{
-    width: 100%;
+    width: 80%;
     height: 100%;
 }
 h2{
@@ -20,7 +21,7 @@ h2{
     color: black;
 }
 .aboutme p{
-    text-align: center;
+    text-align: justify;
     font-size: 1.5vw;
     color: rgb(52, 52, 53);
 }
@@ -30,9 +31,7 @@ h2{
 .aboutme ul p{
     text-align: left;
 }
-.projects{
 
-}
 
 .services .box{
     background-color: white;
@@ -82,9 +81,37 @@ h2{
     overflow-y: hidden;
     white-space: nowrap;
 }
+.profile img{
+    clip-path: circle();
+    width: 70%;
+    
+}
+.profile p{
+    text-align: justify;
+}
+.profile hr{
+  
+    height: 20px;
+    align-self: center;
+}
+.profile .cycle{
+    background-color: gray;
+    height: 7vh;
+    width: 7vh;
+    clip-path: circle();
+}
+.profile .cycle .fa{
+    background-color: gray;
+    color: black;
+    text-align: center;
+    font-size: 3vh;
+}
 /* responsive */
 @media only screen and (max-width:1200px){
     .main p{ text-align: center;
+        font-size: 3vw;
+    }
+    .aboutme p{
         font-size: 3vw;
     }
 }
