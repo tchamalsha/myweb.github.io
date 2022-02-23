@@ -1,5 +1,5 @@
 *{
-    background-color: rgb(236, 229, 219);
+    background-color: #ffffff;
     overflow-x: hidden;
 }
 
@@ -34,7 +34,7 @@ h2{
 
 
 .services .box{
-    background-color: white;
+    background-color: #F3F1F5;
     border-radius: 3rem;
     opacity: 0.5;
 }
@@ -57,8 +57,29 @@ h2{
     margin-top: 25%;
     width: 95%;
 }
+.project{
+    background-color: #F0D9FF;
+    border-color: black;
+    border-radius: 1.5rem;
+}
+.projects .project img{
+    border-radius: 1.5rem;
+}
+.projects .project .description{
+    background-color: #F0D9FF;
+    font-weight: bold;
+    text-align: center;
+}
+.project .description i{
+    background-color: transparent;
+    font-size: 3.5vh;
+}
+.projects .project p{
+    background-color: #F0D9FF;
+}
 .doc{
-    background-color: gray;
+    background-color: #F0D9FF;
+    border-color: black;
     border-radius: 1.5rem;
     display: inline-block;
     width: 350px;
@@ -69,11 +90,11 @@ h2{
 .doc p{
     background-color: transparent;
     text-align: justify;
-    color: whitesmoke;
+    color: black;
     white-space: normal;
 }
 .doc .btn{
-    background-color: rgb(236, 229, 219);
+    background-color: #BFA2DB;
 }
 .art{
     height: 700px;
@@ -86,25 +107,28 @@ h2{
     width: 70%;
     
 }
-.profile p{
+.profiles p{
     text-align: justify;
 }
 .profile hr{
   
-    height: 20px;
+    height: 2vh;
     align-self: center;
 }
 .profile .cycle{
-    background-color: gray;
-    height: 7vh;
-    width: 7vh;
+    background-color: #F3F1F5;
+    height: 6vh;
+    width: 6vh;
     clip-path: circle();
 }
 .profile .cycle .fa{
-    background-color: gray;
+    background-color: #F3F1F5;
     color: black;
     text-align: center;
-    font-size: 3vh;
+    font-size: 3.5vh;
+}
+.profile .footer p{
+    text-align: center;
 }
 /* responsive */
 @media only screen and (max-width:1200px){
