@@ -32,7 +32,10 @@ h2{
     text-align: left;
 }
 
-
+.services .image img{
+   
+    width: 80%;
+}
 .services .box{
     background-color: #F3F1F5;
     border-radius: 3rem;
@@ -130,12 +133,19 @@ h2{
 .profile .footer p{
     text-align: center;
 }
+.horizontal-rule{
+    height: 0.5vh;
+    width: 15vh;
+    background-color: gray;
+}
 /* responsive */
 @media only screen and (max-width:1200px){
-    .main p{ text-align: center;
+    .main p{ 
+        text-align: center;
         font-size: 3vw;
     }
     .aboutme p{
         font-size: 3vw;
+        text-align: left;
     }
 }
