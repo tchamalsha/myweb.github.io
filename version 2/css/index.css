@@ -2,20 +2,78 @@
     background-color: #ffffff;
     overflow-x: hidden;
 }
+.hero {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
 
-.main h1{
-    font-size: 5vw;
-    text-align: center;
+    /* Flexbox stuff */
+    display: flex;
+    
+    align-items: center;
+  
+    
+    /* Background styles */
+  
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
 }
-.main p{
-    text-align: center;
-    font-size: 1.5vw;
-    color: gray;
+.hero h2{
+    color: #A27B5C;
+    font-size: 4em;
+    text-align: left;
+    font-weight: bold;
 }
-.main img{
-    width: 80%;
-    height: 100%;
+
+.hero h1 {
+    /* Text styles */
+    font-size: 5em;
+    font-family: 'Lora', serif;
+        /* Margins */
+    margin-top: 0;
+    font-weight: bold;
+    
+ 
 }
+.hero h3{
+    font-family: 'Ms Madi', cursive;
+    font-size: 7vh;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.hero h5{
+    color: #7F8487;
+    font-size: 1.1em;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+
+}
+.hero h6{
+    color: #A27B5C;
+    font-size: 1.1em;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    
+}
+
+
+.navbar .navbar-nav{
+    animation: movedown 1s linear;
+    float: right;
+}
+@keyframes movedown{
+    0%{
+        transform: translateY(-100px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
 h2{
     text-align: center;
     color: black;
