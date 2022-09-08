@@ -79,7 +79,10 @@
     font-family: 'Combo', cursive;
     font-weight: bold;
 }
-
+.profile img{
+    clip-path: circle();
+    width: 70%;
+}
 /*projects*/
 .projects .project-name{
     font-size: 1.2rem;
@@ -98,16 +101,39 @@
     border-radius: 3px;
     font-weight: bold;
 }
-.aboutme p{
-    text-align: justify;
-    font-size: 1.5vw;
-    color: rgb(52, 52, 53);
+.projects button{
+    background-color: #8d8d8d;
+    border-color: #8d8d8d;
+}
+.projects button:hover{
+    background-color: #A27B5C;
+    border-color: #A27B5C;
 }
 
-.aboutme ul p{
-    text-align: left;
+/*Articles*/
+.articles .date{
+    color: #8d8d8d;
 }
-
+.articles .article-name{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    
+}
+.articles .article-desc{
+    font-family: 'Lora', serif;
+}
+.articles span{
+    background-color: #e6e1e1;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+.articles img{
+    clip-path: none;
+}
+.articles .time{
+    color: #8d8d8d;
+}
 .services .image img{
    
     width: 80%;
@@ -132,11 +158,7 @@
     background-color: transparent;
     text-align: center;
 }
-.articles{
-    margin-top: 25%;
-    width: 95%;
-}
-.
+
 .doc{
     background-color: #F0D9FF;
     border-color: black;
@@ -144,9 +166,7 @@
     display: inline-block;
     width: 350px;
 }
-.doc img{
-    border-radius: 1.5rem;
-}
+
 .doc p{
     background-color: transparent;
     text-align: justify;
@@ -162,11 +182,7 @@
     overflow-y: hidden;
     white-space: nowrap;
 }
-.profile img{
-    clip-path: circle();
-    width: 70%;
-    
-}
+
 .profiles p{
     text-align: justify;
 }
