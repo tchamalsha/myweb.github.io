@@ -80,14 +80,30 @@
     font-weight: bold;
 }
 
+/*projects*/
+.projects .project-name{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #A27B5C;
+}
+.projects .language{
+    color: #7F8487;
+}
+.projects .project-content{
+    border-left: 3px solid #A27B5C;
+    font-family: 'Lora', serif;
+}
+.projects .project-content span{
+    background-color: #e6e1e1;
+    border-radius: 3px;
+    font-weight: bold;
+}
 .aboutme p{
     text-align: justify;
     font-size: 1.5vw;
     color: rgb(52, 52, 53);
 }
-.aboutme ul {
-    list-style-type: none;
-}
+
 .aboutme ul p{
     text-align: left;
 }
@@ -120,26 +136,7 @@
     margin-top: 25%;
     width: 95%;
 }
-.project{
-    background-color: #F0D9FF;
-    border-color: black;
-    border-radius: 1.5rem;
-}
-.projects .project img{
-    border-radius: 1.5rem;
-}
-.projects .project .description{
-    background-color: #F0D9FF;
-    font-weight: bold;
-    text-align: center;
-}
-.project .description i{
-    background-color: transparent;
-    font-size: 3.5vh;
-}
-.projects .project p{
-    background-color: #F0D9FF;
-}
+.
 .doc{
     background-color: #F0D9FF;
     border-color: black;
