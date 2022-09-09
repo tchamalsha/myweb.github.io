@@ -59,11 +59,26 @@
     font-weight: bold;
     
 }
+.navbar .navbar-nav a:hover{
+   color: #A27B5C;
+   border-bottom: #A27B5C;
+}
 
-
-.navbar .navbar-nav{
+.navbar .navbar-nav .home{
     animation: movedown 1s linear;
-    float: right;
+   
+}
+.navbar .navbar-nav .about{
+    animation: movedown 1.2s linear;
+}
+.navbar .navbar-nav .project{
+    animation: movedown 1.4s linear;
+}
+.navbar .navbar-nav .article{
+    animation: movedown 1.6s linear;
+}
+.navbar .navbar-nav .contact{
+    animation: movedown 1.8s linear;
 }
 @keyframes movedown{
     0%{
@@ -213,12 +228,26 @@
 }
 /* responsive */
 @media only screen and (max-width:1200px){
-    .main p{ 
-        text-align: center;
-        font-size: 3vw;
+   
+    .hero{
+        height: 100vh;
+        width: 100%;
+
     }
-    .aboutme p{
-        font-size: 3vw;
-        text-align: left;
+    .hero .hero-inner h1{
+       font-size: 5vh;
+      
     }
+    .hero .hero-inner h2{
+        font-size: 4vh;
+       
+     }
+    .hero .hero-inner h6{
+        font-size: 2vh;
+        font-weight: bold;
+        text-align: justify;
+        
+    }
+    
+    
 }
