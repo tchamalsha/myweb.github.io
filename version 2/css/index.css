@@ -145,16 +145,14 @@
 }
 .articles img{
     clip-path: none;
+    width: 60%;
 }
 .articles .time{
     color: #8d8d8d;
 }
-.services .image img{
-   
-    width: 80%;
-}
+
 .services .box{
-    background-color: #F3F1F5;
+    border: #A27B5C 3px solid;
     border-radius: 3rem;
     opacity: 0.5;
 }
@@ -163,7 +161,7 @@
     margin: 4%;
 }
 .services .box .text{
-    background-color:transparent;
+
     position: relative;
     text-align: justify;
     opacity: none;
@@ -171,31 +169,20 @@
 }
 .text h3{
     background-color: transparent;
-    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+}
+.text h3 span{
+    background-color: black;
+    border-radius: 10px;
+   
 }
 
-.doc{
-    background-color: #F0D9FF;
-    border-color: black;
-    border-radius: 1.5rem;
-    display: inline-block;
-    width: 350px;
-}
-
-.doc p{
-    background-color: transparent;
-    text-align: justify;
-    color: black;
-    white-space: normal;
-}
-.doc .btn{
-    background-color: #BFA2DB;
-}
-.art{
-    height: 700px;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space: nowrap;
+.text .soft-skills ul li{
+    padding:5px;
+    font-size: 1rem;
+    list-style-type: square;
+    
 }
 
 .profiles p{
