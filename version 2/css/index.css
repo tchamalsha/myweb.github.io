@@ -2,10 +2,22 @@
     background-color: #ffffff;
     overflow-x: hidden;
 }
-.hero {
-    /* Sizing */
+
+/*hero page*/
+
+.head{
+    background-image: url('Gray Minimalist Business Name Facebook Cover.png');
+    background-size: cover;
     width: 100vw;
     height: 100vh;
+}
+.head .navigation{
+    background-color: transparent;
+}
+.hero {
+    /* Sizing */
+    height: 90vh;
+    background-color: transparent;
 
     /* Flexbox stuff */
     display: flex;
@@ -16,16 +28,18 @@
     /* Background styles */
   
     background-size: cover;
-    background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    
 
 }
+
 .hero h2{
     color: #A27B5C;
     font-size: 4em;
     text-align: left;
     font-weight: bold;
+    background-color: transparent;
 }
 
 .hero h1 {
@@ -33,7 +47,7 @@
     font-size: 5em;
     font-family: 'Lora', serif;
         /* Margins */
-    margin-top: 0;
+   
     font-weight: bold;
     
  
@@ -58,6 +72,29 @@
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     
+}
+.navbar{
+    position: absolute;
+}
+.head .navbar .nav-item{
+    margin: 7px;
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+}
+
+.head .navbar .nav-item::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #A27B5C;
+    transition: width .3s;
+}
+
+.head .navbar .nav-item:hover::after {
+    width: 100%;
+    transition: width .3s;
 }
 .navbar .navbar-nav a:hover{
    color: #A27B5C;
@@ -88,6 +125,8 @@
         transform: translateY(0);
     }
 }
+
+
 #sub-titles{
     text-align: center;
     color: black;
